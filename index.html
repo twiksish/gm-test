@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <![endif]-->
+
+        <title>Сайт «Гамма Медиа»</title>
+
+    </head>
+
+    <body>
+        <!--[if IE]>
+            <div class="ancients">
+                Вы используете устаревший браузер.
+                Для корректного функционирования этого сайта и большинства других
+                Вам необходимо <a href="http://browsehappy.com/?locale=ru_RU">обновить ваш браузер</a>.
+            </div>
+        <![endif]-->
+
+
+
+        <div class="page">
+
+
+            <header class="page__header">
+                <div class="region">
+
+                    <div class="header">
+                        <div class="header__title">
+                            <h1 class="title">Авторизация</h1>
+                        </div>
+                    </div>
+
+                </div>
+            </header>
+
+
+
+            <main class="page__body">
+                <div class="region">
+
+                    <div class="body">
+                        <div class="body__form">
+
+                            <form class="form">
+                                <div class="form__title">
+                                    <h2 class="title title_small">Вход</h2>
+                                </div>
+                                <ul class="form__body">
+                                    <li class="form__bode__row">
+                                        <div class="input">
+                                            <input class="input__area" type="email" placeholder="E-mail" required>
+                                        </div>
+                                    </li>
+                                    <li class="form__bode__row">
+                                        <div class="input">
+                                            <input class="input__area" type="password" placeholder="Пароль" required>
+                                        </div>
+                                    </li>
+                                    <li class="form__bode__row form__body__row_narrow">
+                                        <div class="checkbox">
+                                            <div class="checkbox__icon">
+                                                <div class="checkbox__icon__inner"></div>
+                                            </div>
+                                            <div class="checkbox__text">Чужой компьютер</div>
+                                        </div>
+                                    </li>
+                                    <li class="form__bode__row">
+                                        <button class="button" type="submit">Войти</button>
+                                    </li>
+                                </ul>
+                                <ul class="form__links">
+                                    <li class="form__links__reset">
+                                        <a class="link" href="#">Восстановить пароль</a>
+                                    </li>
+                                    <li class="form__links__sign-up">
+                                        <a class="link" href="#">Зарегистрироваться</a>
+                                    </li>
+                                </ul>
+                            </form>
+
+                        </div><!--
+                     --><div class="body__description">
+
+                            <div class="description">
+                                <div class="description__title">
+                                    <h2 class="title title_small">Для входа на сайт</h2>
+                                </div>
+                                <ul class="description__list">
+                                    <li class="description__list__item">Укажите адрес вашей электронной почты</li>
+                                    <li class="description__list__item">Введите пароль</li>
+                                    <li class="description__list__item">Нажмите кнопку «Войти»</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </main>
+
+
+
+            <footer class="page__footer">
+                <div class="region">
+
+                    <div class="footer">
+                        <div class="footer__copyright">© Сайт «Гамма Медиа»</div>
+                    </div>
+
+                </div>
+            </footer>
+
+
+
+        </div>
+
+
+
+
+        <script src="js/jquery-2.1.1.min.js"></script>
+        <script src="js/jquery.placeholder.js"></script>
+        <script>
+            (function($) {
+
+                $(function() {
+                    $('input, textarea').placeholder();
+                });
+
+                $('.checkbox').on('click',function(){
+                    $(this).find('.checkbox__icon__inner').fadeToggle(100);
+                });
+
+            })(jQuery);
+
+        </script>
+
+
+
+    </body>
+</html>

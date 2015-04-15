@@ -1,0 +1,16 @@
+.body {
+    text-align: center;
+}
+    .body__form {
+        display: inline-block;
+        width: 374px;
+        margin: 0 47px 0 0;
+        text-align: left;
+    }
+
+    .body__description {
+        display: inline-block;
+        width: 275px;
+        text-align: left;
+        margin: 32px 0 0;
+    }

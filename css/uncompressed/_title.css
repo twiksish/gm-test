@@ -1,0 +1,11 @@
+.title {
+    font-size: 45px;
+    line-height: 47px;
+    color: #626c71;
+    font-weight: bold;
+}
+
+.title_small {
+    font-size: 28px;
+    line-height: 30px;
+}

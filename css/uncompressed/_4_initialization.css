@@ -1,0 +1,11 @@
+html {
+    min-width: 1000px;
+    height: 100%;
+    background: #fff;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+
+body {
+    height: 100%;
+}

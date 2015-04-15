@@ -1,0 +1,11 @@
+.link {
+    display: inline;
+    text-decoration: underline;
+    font-size: 14px;
+    line-height: 16px;
+    color: #84949c;
+}
+
+.link:hover {
+    text-decoration: none;
+}

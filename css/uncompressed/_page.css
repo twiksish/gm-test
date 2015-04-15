@@ -1,0 +1,16 @@
+.page {
+
+}
+    .page__header {
+        background: #e7e8e9;
+    }
+
+    .page__body {
+        margin: 167px 0 0;
+    }
+
+    .page__footer {
+        margin: 184px 0 0;
+        background: #e7e8e9;
+    }
+

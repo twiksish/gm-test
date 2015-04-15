@@ -1,0 +1,31 @@
+.description {
+
+}
+
+    .description__title {
+
+    }
+
+    .description__list {
+        margin: 22px 0 0 11px;
+    }
+
+        .description__list__item {
+            font-size: 18px;
+            line-height: 20px;
+            color: #84949c;
+            margin: 11px 0 0;
+            position: relative;
+            padding: 0 0 0 10px;
+        }
+        
+        .description__list__item:first-child {
+            margin-top: 0;
+        }
+
+        .description__list__item:before {
+            content: '—';
+            position: absolute;
+            top: 0;
+            left: -10px;
+        }

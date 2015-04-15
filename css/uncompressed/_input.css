@@ -1,0 +1,32 @@
+.input {
+
+}
+    .input__area {
+        height: 40px;
+        padding: 0 9px 0 14px;
+        background: #fff;
+        border-radius: 2px;
+        font-size: 14px;
+        color: #626c71;
+    }
+
+    textarea.input__area {
+        padding-top: 6px;
+        padding-bottom: 6px;
+        height: 60px;
+    }
+
+    .field__input::-webkit-input-placeholder { color: #b4b7b8; }
+    .field__input::-moz-placeholder          { color: #b4b7b8; }
+    .field__input:-ms-input-placeholder      { color: #b4b7b8; }
+    .field__input.placeholder                { color: #b4b7b8; }
+
+    .field__input:hover::-webkit-input-placeholder { color: #7e7e7e; }
+    .field__input:hover::-moz-placeholder          { color: #7e7e7e; }
+    .field__input:hover:-ms-input-placeholder      { color: #7e7e7e; }
+    .field__input.placeholder:hover                { color: #7e7e7e; }
+
+    .field__input:focus::-webkit-input-placeholder { color: #7e7e7e; }
+    .field__input:focus::-moz-placeholder          { color: #7e7e7e; }
+    .field__input:focus:-ms-input-placeholder      { color: #7e7e7e; }
+    .field__input.placeholder:focus                { color: #7e7e7e; }

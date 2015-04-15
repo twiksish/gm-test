@@ -1,0 +1,40 @@
+.form {
+    background: #e7e8e9;
+    border-radius: 9px;
+    padding: 32px 37px 37px;
+}
+    .form__title {
+
+    }
+
+    .form__body {
+        margin: 17px 0 0;
+    }
+
+        .form__bode__row {
+            margin: 15px 0 0;
+        }
+
+        .form__bode__row:first-child {
+            margin-top: 0;
+        }
+
+        .form__body__row_narrow {
+            margin-top: 13px;
+        }
+    
+    .form__links {
+        margin: 21px 0 0;
+        position: relative;
+    }
+
+        .form__links__reset {
+
+        }
+
+        .form__links__sign-up {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
